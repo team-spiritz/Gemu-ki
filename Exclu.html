@@ -3,13 +3,16 @@
 <head>										<!--informations de la tete de page-->
 	<title>Gemu ki - Exclu</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!--Je pourrais pas expliquer les lignes, juste ça ajoute au site le language bootstrap, mais après j'ai juste copié collé.-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"><!-- ça c'est un lien pour activer le bootstrap css et avoir la couleur bleu dans le header-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">		<!--scripts css pour bootsrap-->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-	<style>
-	.carousel-inner img {
+	<!--carousel c'est la barre sur la gauche pour monter ou descendre dans le site-->
+  <style>
+	.carousel-inner img { 
     width: 100%;
     height: 100%;
 	</style>
@@ -24,47 +27,191 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="acceuil.html">
+        <a class="nav-link" href="index.html">
         Accueil
       </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="origines.html">
-        Origines (H)
+        Origines
       </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="consoles.html">
-        Consoles (M)
+        Consoles
       </a>
       </li>
 	  <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Exclu (A)
+        Exclu
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Ligne 1</a>
-        <a class="dropdown-item" href="#">Ligne 2</a>
-        <a class="dropdown-item" href="#">Ligne 3</a>
+        <a class="dropdown-item" href="#intro" title="introduction">Il faut savoir que...</a>
+        <a class="dropdown-item" href="#exclus nintendo" title="exclu 1">Nintendo</a>   <!-- le href pointe vers le id "exclus" qui est situé plus bas dans la page -->
+        <a class="dropdown-item" href="#exclus playstation" title="exclu 2">Playstation</a>
+        <a class="dropdown-item" href="#xbox" title="exclu 2">Xbox</a>
+        <a class="dropdown-item" href="#égoïsme" title="égoïsme">Bonne ou mauvaise chose ?</a>
       </div>
       </li>	  
     </ul>
   </div>  
 </nav>
+<br id="intro"><!--Utilisation du Header pour introduire le sujet du site sans parler du contenu du site.-->
+<div class="card text-bg-dark mb-3" style="max-width: 100rem; text-align: center; margin: 70px 50px;">
+  <div class="card-header"><h3>Introduction </h3></div>
+  <div class="card-body">
+    <h5 class="card-title">Il faut savoir que :</h5>
+    <p class="card-text"><a>Les exclusivitées sont aujourd'hui très courante, lorsqu'on choisit une console, on le fait car le catalogue de jeu de la console est le plus interessant. Aujourd'hui, les trois titans du marché du jeux vidéo sont Playstation, Xbox et Nintendo.
+    Tous ont leur lots d'exclusivitées qui plait ou non au consomateur. Nous verrons ici les exclusivitées des jeux, leur impact dans le monde du jeux vidéos, et enfin est-ce aujourd'hui encore utile d'avoir des exclusivitées.
+    </a></p>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Ensuite</h5>
+    <a>Les exclusivités sont au profit du choix d'une console, car les constructeurs sont dans une guerre pour pouvoir avoir un catalogue de jeux qui fait envie au client, Playstation sont ceux qui pensent beaucoup au exclusivité par exemple, là où Microsoft (Xbox) pensent plus au "partage". Les deux géants du marché n'ont pas la même vision des choses, l'un compte sur les exclusivités pour faire vendre sa console, pendant que l'autre pense à ouvrir l'accès à plus de joueur, partager l'expérience et donner des chances aux développeurs tiers, qui n'ont pas forcément les plus gros moyens ou qui ne sont pas les plus connu.
+    </a>
+  </div>
+    <div class="card-body">
+    <h5 class="card-title">Et enfin</h5>
+    <a>Il y a Nintendo, ce troisième géant un petit plus petit que les autres mais qui restent tout de même présent, ils proposent des exclusivités certes mais ne sont pas dans une course à qui en aura un meilleur stock mais sont plus dans "c'est à Nintendo, c'est sur nos consoles". Si nous comparons les excusivités de Playstation et celles de Nintendo, l'un achète les droits pour un jeu (comme Bloodborn aka meilleur jeux PS4 avant Elden Ring) et l'autre ne fait d'excusivité que ce qui lui appartient de base (comme la licence Zelda). Cependant, Sony qui ont fait Playstation, possède également la licence Spider-Man mais ont accepté de laisser le jeu Spider-Man Remastered aller sur PC, technique marketing (sachant que la suite sort en 2023) ou bien est-ce le résultat d'une remise en question et accepter d'ouvrir les frontières de leurs jeux ? </a>
+  </div>
+</div>
+<br>
+<br id="exclus nintendo"><!--Même chose que pour Playstation, j'ai juste copié ce que j'ai fais à Nintendo pour appliquer le format à Playstation.-->
+<br>
+<br>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Liste de jeux exclusif à Nintendo :</h5>
+        
+<table class="table table-dark table-borderless" class="table table-striped">
+<thead>
+    <tr>
+      <th scope="col">Nintendo</th>
+      <th scope="col">Liste exclu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>La licence Zelda</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>La licence Mario</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>La licence Kirby</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>La licence Splatoon</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+    <td>La licence Bayonetta</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>La licence Metroid</td>
+    </tr>
+    <th scope="row"></th>
+    <td>La licence Animal Crossing</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>La licence Xenoblade</td>
+    </tr>
+<p class="card-text">Dans cette petite liste est cité les exclusivités nintendo les plus connu de Nintendo. Nous y trouvons beaucoup de licence qui ont marqués leur époque que ce soit au niveau du gameplay, de l'histoire, ou encore même du level design. <br>
+    Il y a des jeux comme Metroid qui ont donné leur nom à un style de jeux, les "metroid-like" de part l'intelligence de la construction de niveau, ou bien d'autre qui sont devenu les moyens de comparaison pour savoir si un jeu est bien comme Zelda Breath of the wild, Mario kart 8 delux, Pokemon ou Animal Crossing. Nintendo ne possède pas la puissance, mais l'enfance des anciens clients et les rêves des nouveaux arrivants dans leur console portable. Ces licences font voyager les enfants comme ramènent les adultes à leur âge de jeunesse, tout en restant dans leur philosophie : une console en salon pour jouer en famille, une console portable pour vivre l'aventure. La maintenant trillogie des Bayonneta aura également réussi à briller via son excellent gameplay, et qui aujourd'hui encore avec le troisième opus réussi à nous amuser. Splatoon lui, sans oublier kirby ou encore animal crossing ! Et le meilleur pour la fin Xenoblade, ce jeu qui ne peut être expliqué qu'à travers ce <a href="https://youtu.be/dQw4w9WgXcQ">lien.</a></p>
+</tbody>
+</table>
+</div>
+</div> 
+</div> 
+<br>
+<br id="exclus playstation"><!--Réutilisation du code appliqué à Nintendo, fusion d'une card et d'un table (les deux mots sont à lire en anglais) pour pouvoir avoir l'encadrement d'un coup même si j'aurai préféré avoir le tableau entre le titre et le texte.-->
+<br><br>
+<div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Liste des jeux exclusif à Playstation :</h5>
+<table class="table table-dark table-borderless" class="table table-striped">
+<thead>
+    <tr>
+      <th scope="col">Playstation</th>
+      <th scope="col">Liste d'exclu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>Bloodborn</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Demon souls</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Des sorties en avance</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>The Last of Us</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+    <td>Shadow of the Colossus</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>The Last Guardian</td>
+    </tr>
+    <th scope="row"></th>
+    <td>Horizon</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Spider-Man</td>
+    </tr>
+<p class="card-text">Après avoir fais Nintendo, regardons playstation et une partie de son contenu, pour rappel Playstation fait parti de Sony, à été fondé par Sony et est une branche de Sony, à ne pas dissocier. Ce qui rend cette information importante est que Sony détient beaucoup de droit pour beaucoup d'histoire et n'hésite pas à en profiter, comme pour Spider-Man par exemple. La suite aux deux gros succès Spider-man et Spider-Man : Miles Morales arrive bientôt, et on donc profité de cette prochaine sortie pour ouvrir la porte aux joueurs PC, mais sûrement un coup marketing pour les appâter et leur donner envie d'acheter la console avec le jeu. Mais regardons plutôt ce petit apperçu en détail. <br>
+    Tout d'abord, l'une de mes licences préférés a fait l'erreur de laisser en exclusivité Bloodborn, un chef d'oeuvre au niveau du lor, du gameplay, du level design, et une bouse graphique, le jeu n'est rien comparé à Spider-Man au niveau beauté. Cependant il y a une raison à cela, de Demon Souls à Elden Ring en passant par Sekiro, Fromsoftwar n'a utilisé qu'un seul et unique moteur graphique. Mais pour en revenir à Bloodborn, ce jeu a réussi à donner un goût de grande fraîcheur au souls-like sans perdre les fans. Le style est le même, avancé dans un monde couvert d'ennemi où la mort est punitif mais instructif, où le labyrinthe se résolu à travers la méchanique de "raccourci", et où un boss ne mène qu'à un autre boss derrière, et ceux jusqu'au boss final. L'histoire de ce jeu, comme des Dark Souls et aujourd'hui Elden Ring est expliqué à travers à travers une légère poignée de cinématique, la description des objets, et l'architecture du jeu. L'environnement raconte une histoire, le bestiaire également, les armes, votre présence, et la raison de pourquoi vous revenez à la vie à un sens et n'est pas une raison idiote comme "parce que c'est un jeu". Mais au lieu de l'avoir sur PC on l'a sur Playstation c'est un gachis. Hidetaka Miyazaki s'est d'ailleurs inspiré de jeu comme Shadow of the Colossus pour réaliser ses jeux, et pour parler de The Last Gardian qui est dans un sens le petit frère de Shadow of the Colossus (même studio derrière). <br>
+    Ces jeux sont intelligents et cherchent à raconter une belle histoire à travers le gameplay, comme à travers le monde, la faune et la flaure, ou encore même avec la sollitude et les actions du personnage que nous jouons. L'intelligence de la construction de l'histoire de ces jeux fait que pour un enfant c'est passionant et magnifique, pendant que pour un adulte c'est profond, triste et impressionant. Avec ces deux jeux ce n'est pas le jeux qui est dur, mais l'histoire. Pour ce qui est de construction intelligente, un jeux a beosin d'un temps de chargement et forcément afficher plein d'élément et changer de décord demande du temps, mais The Last of Us a réussi à les cacher et être une expérience avec le moins de chargement possible, sans nous ennuyer. Ce n'est pas une petite cinématique mais une transition qui cache la suite du niveau pour laisser le temps au jeu de le charger en mémoire les éléments avant de les envoyer dans la RAM le moment venu. Un gain de temps intelligent qui, avec une histoire accrochante et une tension continue, fait que le jeu a eu le droit à plusieur remake avant d'avoir son remaster et même une suite (ce jeu a connu la PS3,PS4 et maintenant la PS5). Pour finir sur la Playstation, ils ont un malin plaisir à demander à ce que leur console accueil des jeux en avance avant la concurrence, comme certaine fois pour Call of Duty par exemple (rachat de Blizzard par Microsoft cheh). Et enfin Horizon, <a href="https://fr.wikipedia.org/wiki/Horizon_Zero_Dawn"> plus rapide.</a><!-- j'aime pas le jeu mais c'est toujours mieux que le lien vers la musique hein--> </a></p>
+</tbody>
+</table>
+</div>
+</div> 
+</div>
+<br id="xbox"><!--Je suis team Playstation de base. utilisation ici du Header pour garder un thème noir, je trouve que ça rend bien et donne une belle mise en forme de base-->
+<div class="card text-bg-dark mb-3" style="max-width: 100rem; text-align: center; margin: 70px 50px;">
+  <div class="card-header"><h3>Et Xbox dans tout ça ? </h3></div>
+  <div class="card-body">
+    <h5 class="card-title">Microsoft n'est pas fan des exclusivités.</h5>
+    <p class="card-text">
+      <a>La suite logique serait de passer à tabac Xbox mais pour une fois on sera gentil et simplement éviter de parler des exclusivités chez Microsoft <!--car ça finira bien rapidement sur PC en version crack--> pour la simple raison que ce n'est pas leur façon de prosséder, Microsoft préfère donner accès à toute personne, sur toute plateforme mais la Switch manque de puissance et Playstation veut tout posséder. Ces deux points font que pendant que l'un désire partager et rendre accessible à tous l'expérience du jeu vidéo, l'un ne voit qu'une usine à chiffre, mais l'autre aime cette façon de penser mais préfère le partage convivial plutôt que planétaire. Ce qui fait qu'il est inutile de parler d'exclusivité à Xbox puisqu'ils ne sont pas totalement contre (hallow est un bon exemple) mais ce n'est pas pour eux un objectif premier. Ils préfèrent la liberté de se retrouver comme Minecraft, qui permet de faire une variété de chose immense en se retrouvant avec le faible et le radin.<!--c'est l'histoire du généreux, le faible et le radin...-->
+      </a>
+    </p>
+  </div>
+</div>
+<br>
+<br>
+<br id="égoïsme"><!--Pas grand chose à retenir, de base c'est pour présenter une image mais c'est beau comme ça-->
+<div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Pur égoïsme ?</h5>
+        <p class="card-text">Avec tout ça, je ne vais citer que quelque jeux qui ont su influencer grandement le monde du jeu vidéo, comme metroid qui a donné son nom à un style, Shadow of the Colossus qui a montré qu'il ne faut pas forcément des graphismes du futur ni des tonnes et des tonnes de tutos et éléments pour être l'un des meilleurs jeux existant encore actuellement, Bayonneta qui a su briller avec son gameplay intense et des combats qui font vous donner beaucoup de frission et de satisfaction, Zelda qui a su implémenté des bases encore utilisé aujourd'hui pat beaucoup, beaucoup de jeux, sans parler du dernier jeu qui a réussi à donner des codes au monde ouvert dont un qui est la liberté, Spider-Man parce que c'est beau sur PC, The Last of Us qui aime trop revenir à chaque génération, Demon souls qui est le prototype de Dark souls pour faire naître Bloodborn et qui a traumatisé plus d'un avec cette difficulté défendu par "l'accessibilité"<!--ceux qui disent que le jeu n'est pas dur mais accessible méritent le fouet-->. Animal Crossing est mignon pendant, Splatoon existe et Kirby devrait retourner sur gameboy, et enfin <a href="https://youtu.be/dQw4w9WgXcQ">Xenoblade Chronicles.</a> Entre autre, dans cette liste certains jeux ont un réel impact sur le monde du jeu vidéal, pendant que d'autre existe, mais le plus intéressant est que ces jeux sont des exclusivités, certains jeux ne peuvent se permettre d'aller en dehors de leur boîte car ils en font partie comme une partie du corps de cette dernière, pendant que d'autre ne sont qu'entre les pinces de monsieur Krabs. Le fait que Bloodborn soit une exclusivité est totalement débile, alors que Spider-Man lui est compréhensible, il appartient à Sony. Sachant que d'autres exclusivtiées sont exclusifs pour promouvoir une console, comme Zelda Breath of the Wild l'a fait pour la Nintendo Switch <!--la console a été crack en trop peu de temps haha les exclus servent à rien--> ou encore le mini jeu Playstation qui sert à présenter les manettes PS5 et la puissance de cette console, ce n'est pas étonnant que ces jeux là soient exclusifs, c'est l'identité de la console. Tandis que désirer avoir les jeux en avance est juste énervant et inutile, cela ne sert à rien et ne change pas grand chose, à part montrer que les développeurs ne nous prennent que pour des portes feuilles. Donc les exclusivités sont utiles pour faire vivre une console mais il faut que cette licence exclusif le soit car son identité est celle de l'entreprise de la console, Mario Zelda pour Nintendo, Spider-Man pour Sony, Chess Titan pour Microsoft.</p>
+      </div>
+    </div>
+  </div> 
 <br>
 <br>
 <br>
-<h1>Il faut savoir que</h1>
-<a>Les exclusivitées sont aujourd'hui très courante, lorsqu'on choisit une console, on le fait car le catalogue de jeu de la console est le plus interessant.
- Aujourd'hui, les trois titans du marché du jeux vidéo sont Playstation, Xbox et Nintendo.
-Tous ont leur lots d'exclusivitées qui plait ou non au consomateur.
- Nous verrons ici les exclusivitées des jeux, leur impact dans le monde du jeux vidéos, et enfin est-ce aujourd'hui encore utile d'avoir des exclusivitées.
- </a>
 <br>
-<h1>Ensuite</h1>
-<a>Les exclusivités sont au profit du choix d'une console, mais également contre le développement des jeux par les fans. 
-Tout récemment est sorti le jeu Spider-man : Remastered sur PC qui était jusqu'à juillet 2022 une exclusivité Sony, ce qui ravi beaucoup ceux que nous appelerons les "moddeurs" qui ajoutent du contenu au jeux si vous téléchargés leur travaux appelé "mods".
-
+<br>
+<br>
 </div>
 </body>
 </html>
