@@ -17,28 +17,29 @@
 <!--Barre de navigation (expliqué dans index.html)-->
 <div class="lineaire-simple"></div>
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="#">Gemu-ki</a>
+<!--Bare de navigation-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">		<!--les classes pour que la bare de navigation soit de la taille md, fond "dark" et qu'elle reste tout en haut dans n'importe quel circonstances-->
+  <a class="navbar-brand" href="#">Gemu-ki</a>				<!--affiche "Gemu-ki" en haut à gauche sur la bare de navigation-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span>				
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item ">
         <a class="nav-link" href="index.html">
-        Accueil
+        Accueil						<!--fait pour afficher "Acceuil" en texte cliquable dans la bare de navigation et renvoie sur la page "index.html"-->
       </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="origines.html">
-        Origines
+        Origines						<!--Affiche "Origines" en texte cliquable dans la bare de navigation et renvoie sur la page "origines.html"-->
       </a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">		<!--active le fait d'avoir un menu déroulant quand on clique sur le bouton-->
         Consoles
       </a>
-      <div class="dropdown-menu">
+      <div class="dropdown-menu">						<!--les objets dans le menu déroulant, avec des balises qui redirigent vers divers endroit de la page-->
         <a class="dropdown-item" href="#intro">Introduction</a>
         <a class="dropdown-item" href="#microsoft">Consoles Microsoft</a>
         <a class="dropdown-item" href="#sony">Consoles Sony</a>
@@ -46,7 +47,7 @@
       </div>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="Exclu.html">
+        <a class="nav-link" href="Exclu.html">			<!--Affiche "Exclu" en texte cliquable dans la bare de navigation et renvoie sur la page "Exclu.html"-->
         Exclu
       </a>
       </li>	  
@@ -55,10 +56,10 @@
 </nav>
 <!--fin de la barre de navigation-->
 
-<!--balise "intro" pour pouvoir navigué facilement avec le menu déroulant de la page-->
+<!--balise "intro" pour pouvoir navigué facilement avec le menu déroulant dans la bare de navigation (elle prote bien son nom)-->
 <br id="intro"> 
-<div class="card text-bg-dark mb-3" style="max-width: 100rem; text-align: center; margin: 70px 50px;">
-  <div class="card-header"><h3><strong><u>Introduction</u></strong></h3></div>
+<div class="card text-bg-dark mb-3" style="max-width: 100rem; text-align: center; margin: 70px 50px;">	<!--met en place le "tableau" où l'intro est écrite-->
+  <div class="card-header"><h3><strong><u>Introduction</u></strong></h3></div>		<!--la classe "card-header" fait en sorte que le tableau a des bordures, et le texte dedans est "Introduction" en gras souligné, avec une taille h3-->
   <div class="card-body">
     <h5 class="card-title text-warning">Les entreprises de consoles</h5>
     <p class="card-header"><a>Tout d'abord, Les géants des consoles (<i>tel que <strong>Microsoft</strong> avec <u>XBox</u>, <strong>SONY</strong> avec <u>PlayStation</u> ou encore <strong>Nintendo</strong> avec diverses consôles qui contiennent souvent le nom de l'entreprise dedans. "<u>Nintendo Switch</u>";"<u>Nintendo DS</u>"...)</i>
@@ -67,28 +68,29 @@
   <br>SONY sort ça première consôle "<strong>Play Station</strong>" le <u>3 décembre 1994</u> au Japon, le <u>9 septembre 1995</u> aux Etats-Unis, et enfin le <u>29 septembre 1995</u> en Europe. 
   <br><i>(décidement, toujours en retard en Europe)</i>
   <br>Nintendo, lui, bat les records des deux derniers candidats. Leurs première consôle sort en 1977, La "<strong>Color TV-Game 6</strong>" uniquement au Japon.
-  <br>Plus d'informations dans la séction "<strong><u>Origines</u></strong>"
+  <br>Plus d'informations dans la séction "<strong><u>Origines</u></strong>"		<!--tout le texte en dessous du mot "introduction" , avec la classe "card-header" pour avoir les bordures.-->
     </a></p>
   </div>
   <div class="card-body">
     <h5 class="card-title text-warning">La toute première consôle</h5>
     <p class="card-header"><a>La toute première consôle s'appelle "<strong>Magnavox Odyssey</strong>" elle a été crée par <strong>Ralph Baer</strong> en <u>septembre 1972</u>. cette consôle est le premier "appreil électronique" à intégré les jeux vidéos dans les maisons. Elle ne coutait que <strong>100$</strong>.
-    </a></p>
+    </a></p>										<!--texte en dessous encore, avec la même classe que la précédente-->
   </div>
     <div class="card-body">
-    <h5 class="card-title text-warning"></h5>
-    <a></a>
+    <h5 class="card-title"></h5>
+    <a></a>						<!--fait pour avoir une petite séparation-->
   </div>
 </div>
 
+<!--balise "microsoft"-->
 <br id="microsoft"> 
-<div class="container text-secondary" style="text-align: center">
-  <img src="images/consoles/microsoft.png" alt="logo microsoft" width="200" height="200" >
+<div class="container text-secondary" style="text-align: center">			<!--fait en sorte que l'image soit centré sur la page-->
+  <img src="images/consoles/microsoft.png" alt="logo microsoft" width="200" height="200" >	<!--insère l'image "microsoft.png" dans son dossier, avec une taille pour que l'image ai une tête correcte-->
   <br>
-  <table class="table table-dark table-hover">
+  <table class="table table-dark table-hover">	<!--commence une table -->
     <thead>
       <tr>
-        <th>Logo</th>
+        <th>Logo</th>			<!--met en tête les nom des catégories-->
         <th>Nom</th>
         <th>Date de sortie</th>
         <th>Prix</th>
@@ -98,57 +100,57 @@
       <tr>
         <td><img src="images/consoles/xbox.png" alt="xbox" width="120" height="35"></td>
         <td>Xbox</td>
-        <td>15 novembre 2001</td>
+        <td>15 novembre 2001</td>				<!--catégorie xbox, avec son image-->
         <td>149€ en 2004</td>
       </tr>
       <tr>
         <td><img src="images/consoles/xbox 360.png" alt="xbox" width="140" height="30"></td>
         <td>Xbox 360</td>
-        <td>2 décembre 2005</td>
+        <td>2 décembre 2005</td>				<!--catégorie xbox 360, avec son image-->
         <td>129€ en 2007</td>
       </tr>
       <tr>
         <td><img src="images/consoles/xbox one s.png" alt="xbox" width="170" height="50"></td>
         <td>Xbox One S</td>
-        <td>22 novembre 2016</td>
+        <td>22 novembre 2016</td>				<!--catégorie xbox one S, avec son image-->
         <td>399€ en 2016</td>
       </tr>
       <tr>
         <td><img src="images/consoles/xbox one x.png" alt="xbox" width="170" height="50"></td>
         <td>Xbox One X</td>
-        <td>7 novembre 2017</td>
+        <td>7 novembre 2017</td>				<!--catégorie xbox one X, avec son image-->
         <td>499€ en 2017</td>
       </tr>
       <tr>
         <td><img src="images/consoles/xbox one s all digital edition.png" alt="xbox" width="150" height="30"></td>
         <td>Xbox One S All-Digital Edition</td>
-        <td>7 mai 2019</td>
+        <td>7 mai 2019</td>					<!--catégorie xbox one s all digital edition, avec son image-->
         <td>229€ en 2019</td>
       </tr>
       <tr>
         <td><img src="images/consoles/xbox series x.png" alt="xbox" width="170" height="35"></td>
         <td>Xbox Series X</td>
-        <td>10 novembre 2020</td>
+        <td>10 novembre 2020</td>				<!--catégorie xbox series X, avec son image-->
         <td>499€ en 2020</td>
       </tr>
       <tr>
         <td><img src="images/consoles/xbox series s.png" alt="xbox" width="170" height="35"></td>
         <td>Xbox Series S</td>
-        <td>10 novembre 2020</td>
+        <td>10 novembre 2020</td>				<!--catégorie xbox series S, avec son image--> 
         <td>299€ en 2020</td>
       </tr>
     </tbody>
   </table>
 
 <br id="sony"> 
-<div class="container text-secondary" style="text-align: center">
-  <img src="images/consoles/sony.png" alt="logo sony" width="200" height="200">
+<div class="container text-secondary" style="text-align: center"> <!--fait en sorte que l'image soit centré sur la page-->
+  <img src="images/consoles/sony.png" alt="logo sony" width="200" height="200">	 <!--insère l'image "microsoft.png" dans son dossier, avec une taille pour que l'image ai une tête correcte-->
   <br>
   <table class="table table-dark table-hover">
     <thead>
       <tr>
         <th>Logo</th>
-        <th>Nom</th>
+        <th>Nom</th>					<!--met en tête les nom des catégories-->
         <th>Date de sortie</th>
         <th>Prix</th>
       </tr>
@@ -157,38 +159,38 @@
       <tr>
         <td><img src="images/consoles/ps1.png" alt="Playstation 1" width="90" height="70"></td>
         <td>PlayStation</td>
-        <td>1995</td>
+        <td>1995</td>					<!--catégorie PS 1, avec son image-->
         <td>90€ en moyenne</td>
       </tr>
       <tr>
         <td><img src="images/consoles/ps2.png" alt="Playstation 2" width="140" height="30"></td>
         <td>PlayStation 2 Slim</td>
-        <td>2000</td>
+        <td>2000</td>					<!--catégorie PS 2, avec son image-->
         <td>110€ en moyenne</td>
       </tr>
       <tr>
         <td><img src="images/consoles/ps3.png" alt="Playstation 3" width="140" height="45"></td>
         <td>PlayStation 3</td>
-        <td>2007</td>
-        <td>130€ en moyenne</td>
+        <td>2007</td>					<!--catégorie PS 3, avec son image-->
+        <td>130€ en moyenne</td>		
       </tr>
       <tr>
         <td><img src="images/consoles/ps4.png" alt="Playstation 4" width="170" height="40"></td>
         <td>PlayStation 4</td>
-        <td>2013</td>
-        <td>300€ en moyenne</td>
+        <td>2013</td>					<!--catégorie PS 4, avec son image-->
+        <td>300€ en moyenne</td>	
       </tr>
       <tr>
         <td><img src="images/consoles/ps5.png" alt="Playstation 5" width="170" height="40"></td>
         <td>PlayStation 5</td>
-        <td>2019</td>
+        <td>2019</td>					<!--catégorie PS 5, avec son image-->
         <td>900€ en moyenne</td>
       </tr>
       <tr>
         <td><img src="images/consoles/ps portable.png" alt="Playstation portable" width="170" height="45"></td>
         <td>PlayStation Portable</td>
-        <td>1998</td>
-        <td>entre 180€ et 300€</td>
+        <td>1998</td>					<!--catégorie PSP, avec son image-->
+        <td>entre 180€ et 300€</td>	
       </tr>
       <tr>
         <td><img src="images/consoles/ps vita.png" alt="Playstation Vita" width="150" height="40"></td>
